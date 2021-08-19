@@ -2,18 +2,15 @@ body {
     font-family: 'Poppins', sans-serif;
     background-color: aliceblue;
 }
-
 /* INTRO  */
 #intro {
     text-align: center;
 }
-
 #intro p {
     color: #777;
     position: relative;
     bottom: 20px;
 }
-
 /* ADD TODOS  */
 #add-todos {
     text-align: center;
@@ -47,7 +44,6 @@ body {
     display: flex;
     justify-content: space-between;
 }
-
 @media(min-width: 900px){
     body {
         background-color: #fafafa;

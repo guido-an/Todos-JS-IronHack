@@ -3,7 +3,6 @@ document.addEventListener('DOMContentLoaded', function () {
    const todoInput = document.getElementById('input-todo')
    const addBtn = document.getElementById('add-todo-btn')
 
-
    function createTodo(){
        // Create elements
        const div = document.createElement('div')
