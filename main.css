@@ -1,0 +1,68 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: aliceblue;
+}
+
+/* INTRO  */
+#intro {
+    text-align: center;
+}
+
+#intro p {
+    color: #777;
+    position: relative;
+    bottom: 20px;
+}
+
+/* ADD TODOS  */
+#add-todos {
+    text-align: center;
+}
+#input-todo {
+  width: 90vw;
+  height: 30px;
+  border-radius: 35px;
+  border: 1px solid black;
+  padding: 5px 10px;
+}
+#input-todo:focus {
+    outline: none;
+}
+#add-todo-btn {
+    width: 40vw;
+    height: 30px;
+    background-color: yellow;
+    border: 1px solid yellow;
+    margin-top: 20px;
+    border-radius: 35px
+}
+#add-todo-btn:hover {
+    background-color: green;
+    border: 1px solid green;
+    color: #fff;
+    cursor: pointer;
+}
+/* DISPLAY TODOS  */
+.my-todo {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media(min-width: 900px){
+    body {
+        background-color: #fafafa;
+    }
+    #input-todo {
+        width: 40vw;
+        display: block;
+        margin: 0 auto
+    }
+    #add-todo-btn {
+        width: 200px
+    }
+    #display-todos {
+        width: 40vw;
+        margin: 0 auto;
+    }
+
+}
